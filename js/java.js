@@ -43,8 +43,6 @@
 //     $("#link-projects").css("color", "#ffffff");
 
 // });
-// $(document).ready(function () {
-//   //your code here
 
 
 (function($) {
@@ -78,47 +76,15 @@
 
 
 
-
 $(function(){
 
-$( "#toggleContact" ).click(function() {
-  $( ".google" ).toggle( "slow" );
+$( ".toggleContact" ).click(function() {
+  var showimg = $(this).attr("data-pic");
+  $('#'+showimg).toggle();
 });
 
 });
 
-$(function(){
-
-$( "#toggleContact1" ).click(function() {
-  $( ".ieee" ).toggle( "slow" );
-});
-
-});
-
-$(function(){
-
-$( "#toggleContact2" ).click(function() {
-  $( ".chairball" ).toggle( "slow" );
-});
-
-});
-
-$(function(){
-
-$( "#toggleContact3" ).click(function() {
-  $( ".csr" ).toggle( "slow" );
-});
-
-});
-
-
-$(function(){
-
-$( "#toggleContact4" ).click(function() {
-  $( ".techslam" ).toggle( "slow" );
-});
-
-});
 
 
 
