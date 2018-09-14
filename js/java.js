@@ -78,33 +78,19 @@
 
 $(function(){
 
-$( ".toggleContact" ).click(function() {
-  var showimg = $(this).attr("data-pic");
-  $('#'+showimg).toggle();
-});
+  $( ".toggleContact" ).click(function() {
+    var showimg = $(this).attr("data-pic");
+    $('#'+showimg).toggle();
+  });
 
 });
 
 
 
-
-$(".button1").click(function(){
-
-        $(".ifclicked1").css('background-color', '#008CBA');
-    });   
-$(".button2").click(function(){
-
-        $(".ifclicked2").css('background-color', '#008CBA');
-    });   
-$(".button3").click(function(){
-
-        $(".ifclicked3").css('background-color', '#008CBA');
-    });   
-$(".button4").click(function(){
-
-        $(".ifclicked4").css('background-color', '#008CBA');
-    });   
-$(".button5").click(function(){
-
-        $(".ifclicked5").css('background-color', '#008CBA');
-    });   
+$(function(){
+  $(".buttoncolorclicked").click(function(){
+    if(this){
+      $(this).css('background-color','#5E0B17');
+    } 
+    });
+});
