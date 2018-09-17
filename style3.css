@@ -1,6 +1,6 @@
 body {
-  font-family: 'Open Sans', serif;
-      padding-top: 0;
+    font-family: 'Open Sans', serif;
+    padding-top: 0;
     padding-left: 17rem;
     position: relative;
 
@@ -133,6 +133,15 @@ top:0;
 
 img.portfo {
   width: 300px;
+  height: auto;
+  border-radius: 5%;
+  border: 2px #fff;
+  display: block;
+  margin: auto;
+}
+
+img.portfo1 {
+  width: 800px;
   height: auto;
   border-radius: 5%;
   border: 2px #fff;
